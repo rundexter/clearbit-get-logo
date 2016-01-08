@@ -2,25 +2,30 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "domain",
+            "title": "Domain"
+        },
+        {
+            "id": "size",
+            "title": "Size"
+        },
+        {
+            "id": "format",
+            "title":"format Name"
+        },
+        {
+            "id": "greyscale",
+            "title":"greyscale | Greyscale?"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "url",
+            "title":"URL"
         }
-      */
     ],
-    "title": "Clearbit: Get Logo" /* Required.A display name for the module */
+    "icon": "dex-clearbit",
+    "title": "Clearbit: Get Company"
 }
